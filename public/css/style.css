@@ -1,0 +1,70 @@
+#content{
+    background-color: #fff;
+    width: 598px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+#page-content{
+    padding: 10px
+}
+div.center{
+    display: table;
+    margin:0 auto;
+}
+div.center div:first-child{
+    display: table-cell;
+}
+.error, .alert, .notice, .success, .info {
+    border:2px solid #DDDDDD;
+    margin-bottom:1em;
+    padding:0.8em;
+}
+.error, .alert {
+    background:none repeat scroll 0 0 #FBE3E4;
+    border-color:#FBC2C4;
+    color:#8A1F11;
+}
+.error a, .alert a {
+    color:#8A1F11;
+}
+input[type=radio].error{
+    border:0;
+    margin-bottom:0;
+    padding:0;
+}
+label.error{
+    display:block;
+}
+.files-scroll{
+    width:100%;
+    max-height:200px;
+    _height: 200px;
+    overflow-y:scroll;
+}
+.files-scroll a {
+    text-decoration: none;
+}
+.files-scroll a:hover{
+    text-decoration: underline;
+}
+.files-scroll table{
+    width: 100%;
+}
+a:hover{
+    text-decoration: underline;
+}
+td.actions{
+    text-align: right;
+}
+li.qq-upload-fail, li.qq-upload-success{
+    cursor: pointer;
+}
+.tall{
+    max-height:600px;
+    _height: 600px;
+}
+input.read-only{
+    width: 485px;
+    background-color: #fff;
+    color: #666;
+}
