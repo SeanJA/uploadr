@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
 	exit('No direct script access allowed');
 
-class uploadr extends MY_Controller {
+class uploadr extends Controller {
 
 	function uploadr() {
 		$this->data['title'] = 'upload files';
